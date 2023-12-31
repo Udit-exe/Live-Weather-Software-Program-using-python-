@@ -1,7 +1,7 @@
 import requests
 import json
 
-city= input("Enter city name your want weather conditions of:");
+city= input("Enter name of the city to check weather conditions:");
 url = f"https://api.weatherapi.com/v1/current.json?key=525c9d1cee8e4f79920145056232012&q={city}";
 
 r= requests.get(url);
